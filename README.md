@@ -1,7 +1,7 @@
 docker-ansible
 ===========
 
-This is dockerized Ansible for automatic configuration. I use version 1.9
+This is dockerized Ansible 1.9 for automatic configuration.
 
 
 How it's work
@@ -9,11 +9,11 @@ How it's work
 
 * Run ansible (show version):
 
-    `` docker run --rm vukor/ansible --version ``
+    `` docker run --rm vukor/ansible:1.9 --version ``
 
 * Run ansible-playbook with your receipts in ./playbook/:
 
-    `` docker run -v ./playbook:/playbook --rm vukor/ansible ansible-playbook /playbook/main.yml ``
+    `` docker run -v ./playbook:/playbook --rm vukor/ansible:1.9 ansible-playbook /playbook/main.yml ``
 
 
 The MIT License (MIT)
