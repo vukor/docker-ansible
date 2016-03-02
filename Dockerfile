@@ -8,4 +8,3 @@ RUN apk update && \
 RUN mkdir -p -m 700 /root/.ssh/ && touch /root/.ssh/known_hosts
 
 WORKDIR /playbook/
-
