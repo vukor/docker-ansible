@@ -1,7 +1,7 @@
-docker-ansible
+ansible
 ===========
 
-This is dockerized Ansible 1.9 for automatic configuration.
+This is dockerized Ansible for automatic configuration.
 
 
 How it's work
